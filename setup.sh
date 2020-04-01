@@ -189,11 +189,11 @@ do
       shift # past argument
       shift # past value
       ;;
-      -elist|--emscriptenListVersions)
+      -elist|--listEmscriptenVersions)
       ELIST=YES
       shift # past argument
       ;;
-      -Qtv|--QtVersion)
+      -QtV|--QtVersion)
       QTVER="$2"
       shift # past argument
       shift # past value
